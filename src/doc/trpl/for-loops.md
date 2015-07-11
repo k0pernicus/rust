@@ -66,6 +66,26 @@ i = 4 and j = 9
 
 Don't forget to add the parentheses around the range.
 
+To reverse the statement, you can do this:
+
+```
+for i in (5..10).rev() {
+    println!("i = {}", i);
+}
+```
+
+Outputs:
+
+```text
+i = 10
+i = 9
+i = 8
+i = 7
+i = 6
+```
+
+In this example, ```5``` is exclude!
+
 ## On iterators:
 
 ```rust
